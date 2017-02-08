@@ -1,0 +1,6 @@
+[ 2016-04-07T15:36:47+08:00 ] 127.0.0.1 /NewBlog/index.php?m=index&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Index
+

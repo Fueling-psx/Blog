@@ -1,0 +1,9 @@
+[ 2015-09-19T19:53:26+08:00 ] ::1 /MyBlog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'cammen_blog'
+

@@ -1,0 +1,85 @@
+.in-login{
+	width:100%;
+	min-height: 850px;
+	margin-top: 50px;
+	display:inline-block;
+	background: url('/NewBlog/Public/assets/global/img/bg/life.jpg');
+}
+.in-login .lo-container{
+	width:65%;
+	margin:auto;
+	margin-bottom:200px;
+	margin-top: 120px;
+	padding-top:20px;
+	overflow:hidden;
+	background:rgba(255,255,255,0.3);
+	box-shadow:1px 1px 4px #333333;
+	
+}
+.in-login .lo-container .pull-left{
+	display:block;
+	width:60%;
+	box-sizing: border-box;
+	border-right:1px solid #666;
+	margin:20px 0;
+}
+.in-login .lo-container .title img{
+	display:block;
+	width:80px;
+	height:80px;
+	margin:auto;
+	border-radius:50%;
+}
+.in-login .lo-container .title h2{
+	text-align:center;
+}
+.in-login .lo-container input{
+	display:block;
+	width:400px;
+	height:30px;
+	margin:auto;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-bottom:10px;
+	font-family: "microsoft yahei" simhei sans-serif;
+	padding: 3px;
+	line-height:36px;
+}
+.in-login .lo-container .btn{
+	display:block;
+	width:406px;
+	height:38px;
+	margin:auto;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-bottom:10px;
+	font-family: "microsoft yahei" simhei sans-serif;
+	line-height:36px;
+	font-size:18px;
+	
+}
+.in-login .lo-container .pull-right{
+	display:block;
+	width:40%;
+	line-height: 40px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin:15px 0;
+	position:relative;
+}
+.in-login .lo-container .pull-right .content{
+	width: 150px;
+	margin: auto;
+}
+.content p{
+	text-align: left;
+}
+.content p:last-child{
+	text-align: right;
+}
+.in-login .lo-container .pull-right p{
+	font-family: "microsoft yahei" simhei sans-serif;
+}
+.in-login .lo-container .pull-right p:last-child{
+	margin-left:45px;
+}

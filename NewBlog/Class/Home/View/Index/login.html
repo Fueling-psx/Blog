@@ -1,0 +1,51 @@
+<extend name="public:frameset" />
+<block name="style">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/pages/styles/login.css"/>
+</block>
+<block name="body">
+<div class="frameset">
+	<div class="in-login">
+		<div class="in-header">			
+		</div>
+		<div class="lo-container">
+			<div class="pull-left">
+					<div class="title">
+						<img src="__PUBLIC__/assets/global/img/avatar/child.jpg" alt="" />
+						<h2>博主登入</h2>
+					</div>
+					<form action="{:U('Index/dologin')}" method="post">
+						<input type="text" placeholder="账号" name="user_id"/>
+						<input type="password" placeholder="密码" name="password"/>
+		<!-- 				<button type="submit" class="btn">登录</button> -->
+						<input type="submit" value="登录" class="btn"/>
+					</form>
+					
+			</div>
+			<div class="pull-right">
+				<div class="content">
+					<p>你陪了我多少年</p>
+					<p>花开花落</p>
+					<p>一路上起起跌跌</p>
+					<p>——定风波</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom"></div>
+</div>
+</block>
+<block name="script">
+	<script type="text/javascript" class="autoinsert" src="__PUBLIC__/assets/plugins/jquery/jquery-2.1.3.min.js"></script> 
+	<script src="__PUBLIC__/assets/global/js/snowfall.jquery.js"></script> 
+</block>
+<block name="init">
+	<script>
+	$(document).snowfall('clear');
+	$(document).snowfall({
+	    image: "__PUBLIC__/assets/global/img/花瓣.png",
+	    flakeCount: 30,
+	    minSize: 5,
+	    maxSize: 22
+	});
+	</script>
+</block>

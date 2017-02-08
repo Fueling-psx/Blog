@@ -1,0 +1,76 @@
+.in-detail{
+	width:100%;
+	margin-top:100px;
+	display:inline-block;
+	min-height:700px;
+	font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.in-detail .in-header{
+	font-family: "microsoft yahei" simhei sans-serif;
+}
+.in-detail .container{
+	width: 50%;
+	margin:auto;
+	min-height:600px;
+	box-sizing: border-box;
+
+}
+.in-detail .container .title{
+	font-size: 30px;
+    color: #333;
+    line-height: 1.3;
+    position: relative;
+    font-weight: 700;
+}
+.in-detail .container .stuff{
+	margin-top: 20px;
+    color: #666;
+    font-size: 13px;
+}
+.in-detail .container .stuff span {
+    display: inline-block;
+    margin-right: 20px;
+}
+.in-detail .container .content{
+	font-family: "microsoft yahei" simhei sans-serif;
+	color:#444;
+	line-height: 55px;
+	font-size: 18px;
+	border-bottom:1px solid #ccc;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.in-detail .container .content:before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: #eee;
+    display: block;
+    margin: 30px auto 40px;
+}
+.in-detail .container .content span{
+	float:right;
+	margin-right:8px;
+}
+.in-detail .page>a{
+	line-height:30px;
+	width:80px;
+	background:rgb(215, 215, 217);
+	margin-right:20px;
+	text-align:center;
+	font-family: "microsoft yahei" simhei sans-serif;
+	border-radius:4px;
+	color:#333;
+}
+.in-detail .page>span{
+	line-height:30px;
+	height:30px;
+	width:80px;
+	background:rgb(215, 215, 217);
+	margin-right:20px;
+	text-align:center;
+	font-family: "microsoft yahei" simhei sans-serif;
+	border-radius:4px;
+	color:#333;
+}
+/* --------------------in-login.css -------------------------------*/

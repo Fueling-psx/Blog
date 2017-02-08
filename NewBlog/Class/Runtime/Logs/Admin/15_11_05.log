@@ -1,0 +1,51 @@
+[ 2015-11-05T17:20:51+08:00 ] ::1 /NewBlog/index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.7165s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0386s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.1166s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.1627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.557300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.557423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.065864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.065963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034081s ]
+
+[ 2015-11-05T17:20:58+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+

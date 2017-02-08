@@ -1,0 +1,346 @@
+[ 2016-08-01T15:16:42+08:00 ] ::1 /Blog/NewBlog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014824s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.2973s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0590s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0222s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.1104s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined index: index_show C:\wamp\www\Blog\NewBlog\Class\Runtime\Cache\Home\019c94ce4980ea5b42b0fa88e5a3326f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.227770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.228071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.048335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048513s ]
+
+[ 2016-08-01T15:17:21+08:00 ] ::1 /Blog/NewBlog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0082s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: index_show C:\wamp\www\Blog\NewBlog\Class\Runtime\Cache\Home\019c94ce4980ea5b42b0fa88e5a3326f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-08-01T15:17:24+08:00 ] ::1 /Blog/NewBlog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0086s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: index_show C:\wamp\www\Blog\NewBlog\Class\Runtime\Cache\Home\019c94ce4980ea5b42b0fa88e5a3326f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2016-08-01T15:17:27+08:00 ] ::1 /Blog/NewBlog/index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0275s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: index_show C:\wamp\www\Blog\NewBlog\Class\Runtime\Cache\Home\019c94ce4980ea5b42b0fa88e5a3326f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2016-08-01T15:17:34+08:00 ] ::1 /Blog/NewBlog/index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0060s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: index_show C:\wamp\www\Blog\NewBlog\Class\Runtime\Cache\Home\019c94ce4980ea5b42b0fa88e5a3326f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-08-01T15:17:35+08:00 ] ::1 /Blog/NewBlog/index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0064s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined index: index_show C:\wamp\www\Blog\NewBlog\Class\Runtime\Cache\Home\019c94ce4980ea5b42b0fa88e5a3326f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2016-08-01T15:17:37+08:00 ] ::1 /Blog/NewBlog/index.php?m=Home&c=index&a=category&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: p C:\wamp\www\Blog\NewBlog\Class\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '5' ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0506s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '5' ORDER BY update_time desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2016-08-01T15:17:42+08:00 ] ::1 /Blog/NewBlog/index.php?m=Home&c=index&a=category&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: p C:\wamp\www\Blog\NewBlog\Class\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '8' ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '8' ORDER BY update_time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2016-08-01T15:17:45+08:00 ] ::1 /Blog/NewBlog/index.php?m=Home&c=index&a=category&id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: p C:\wamp\www\Blog\NewBlog\Class\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '10' ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '10' ORDER BY update_time desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001971s ]
+
+[ 2016-08-01T15:17:48+08:00 ] ::1 /Blog/NewBlog/index.php?m=Home&c=Index&a=category&id=10&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `status` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\Blog\NewBlog\Class\Home\Common\function.php 第 15 行.
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: p C:\wamp\www\Blog\NewBlog\Class\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '10' ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` = '10' ORDER BY update_time desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002025s ]
+

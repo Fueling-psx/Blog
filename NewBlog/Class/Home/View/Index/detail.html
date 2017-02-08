@@ -1,0 +1,33 @@
+<extend name="public:frameset" />
+<block name="style">
+	<link href="__PUBLIC__/assets/pages/styles/detail.css" rel="stylesheet" type="text/css"/>
+</block>
+<block name="body">
+	<div class="in-detail">
+		<div class="in-header">			
+		</div>
+		<div class="container">
+		<!-- <div> -->
+			<div class="title">
+				{$detail.current.title}
+			</div>
+			<div class="stuff">
+	            <span>三月 20, 2016 </span>
+	            <span>阅读 5059</span>
+	            <span>字数 7682</span>
+	            <span>评论 26</span>
+	            <span>喜欢 <a href="javascript:;" class="likeThis" id="like-5753"><span class="icon-like"></span><span class="count">80</span></a></span>
+	        </div>
+			<div class="content">
+				{$detail.current.content}
+				{$detail.last.id}
+				<span>———— numberToCh({$detail.current.update_time|date='Y-m-d',###})</span>
+			</div>
+			<!--</div> -->
+			<div class="page">
+					<span>上一篇:</span><a href="{:U('Index/detail',array('id'=>$detail['last']['id']))}">{$detail.last.title}</a>
+					<span>下一篇:</span><a href="{:U('Index/detail',array('id'=>$detail['next']['id']))}">{$detail.next.title}</a>
+				</div>
+		</div>
+	</div>
+</block>

@@ -1,0 +1,9 @@
+[ 2016-04-10T22:07:18+08:00 ] ::1 /Blog/NewBlog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023716s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'newblog'
+

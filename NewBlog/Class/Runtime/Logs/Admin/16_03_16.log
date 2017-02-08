@@ -1,0 +1,1101 @@
+[ 2016-03-16T18:31:17+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0708s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-03-16T18:31:34+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2016-03-16T18:33:34+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-03-16T18:36:10+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2016-03-16T18:36:16+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `blog_user` WHERE `user_id` = 1408091071 AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007728s ]
+
+[ 2016-03-16T18:36:17+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-03-16T18:36:24+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\c271be4512c91459c67cb6b11f9918c9.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-03-16T18:36:36+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=blog_add&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0031s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ArticleDetailModel::BlogAdd(), called in D:\wamp\www\NewBlog\Class\Admin\Controller\IndexController.class.php on line 66 and defined D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: array D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 34 行.
+SQL: INSERT INTO `blog_article_detail` (`category_id`,`title`,`content`,`update_time`,`user_id`) VALUES ('1,5','啦啦靓','塞京很囧当法令囧党风蓝空当腹围换十二桑反恐的备战肯冻不住咧','1458124596','1408091071') [ RunTime:0.0627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-03-16T18:36:37+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-03-16T18:36:41+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0219s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-03-16T18:36:42+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-03-16T18:36:43+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-03-16T18:36:52+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-03-16T18:36:55+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-03-16T18:36:56+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-03-16T18:36:58+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=pageChange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blog_article_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-03-16T18:37:01+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\c271be4512c91459c67cb6b11f9918c9.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-03-16T18:37:02+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-03-16T18:37:05+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=pageChange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blog_article_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-03-16T18:37:10+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=change&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2016-03-16T18:37:14+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=pageChange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_article_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-03-16T18:37:18+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-03-16T18:37:22+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=index&a=editBlog&id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_article_detail` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-03-16T18:37:24+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=edit&id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0031s ]
+SQL: UPDATE `blog_article_detail` SET `title`='与寂寞有染，与爱情无关',`content`=' 
+					   
+					  <p>哥们儿老杨给我讲了他哥们儿的故事：</p>
+
+<p>Y和T是一对中年夫妻。和大部分70年代初出生的人一样，按部就班的恋爱结婚、成家立业。但这不妨碍他们是令人艳羡的一对壁人。Y高大英俊年轻有为，T明眸皓齿温柔妩媚。婚后第三年，Y雄心勃勃地辞去了国企的工作，开始下海创业。T全力支持丈夫，一个人担起家庭里里外外的大小事务。</p>
+
+<p>Y出身农村，吃苦耐劳敢打敢拼，为人大方慷慨仗义，公司很快完成招兵买马，逐步走上正轨。孩子出生后，T也顺理成章地辞掉小白领工作，安心做起全职太太。贤内助一做就是八年。男人事业干的热火朝天，在省内开了几家分公司，孩子也在T的精心照料下健康长大，家庭从小康步入中产，一切都越来越趋向圆满。</p>
+
+<p>说到这里，我问老杨：又是男人有钱后变心出轨的戏码？女人成了黄脸婆，男人要离婚？</p>
+
+<p>与寂寞有染，与爱情无关</p>
+
+<p>老杨摇头：还真不是。</p>
+
+<p>做生意的人自然离不开酒场，也难免应酬在灯红酒绿风月无边的地方，见过不少明眸流盼的眼波，接到过不少似是而非的暗示，拒绝过诸多主动倒贴的莺燕，能做到这般，Y也算是个难得的好男人。陪伴的妻儿的时间本就越来越少，他始终自信，能守住作为丈夫的道德底线。</p>
+
+<p>而他的信念，在婚后第十一个年头轰然倒塌。</p>
+
+<p>一个五星级酒店门口，风姿绰约的T走下红色宝马，同时下车的，还有另一个年轻小伙。在酒店大堂门口，小伙迫不及待的拥吻T，然后去前台办手续。</p>
+
+<p>而这一切，被Y的两个哥们儿亲眼看见。</p>
+
+<p>老杨讲到这里，我瞬间脑补了香港黑社会影片：两个马仔无意中撞见老大的女人与情人通奸，四目相对眉头紧皱，低声问：“要不要告诉大哥？“ 墨镜下是两张冷峻的脸。</p>
+
+<p>老杨说：你真是古惑仔看多了。现实有时比电影还残酷。</p>
+
+<p>Y找人跟踪了T，调查了她所有的手机通话、短信记录、QQ聊天。小伙与T在网上认识，对外以姐弟相称，T在经济上给过他资助，一来二去，两人突破了界线。</p>
+
+<p>终于，Y拿着一长串的通话清单、一沓照片、一份离婚协议，摔在了T的面前。</p>
+
+<p>T脸色苍白，身体开始发抖，随后哭了起来。</p>
+
+<p>所有解释都语无伦次，苍白无力。所有抱歉，抵不过一个不争的事实。</p>
+
+<p>T无数次乞求Y，希望他看在孩子的份上，原谅她一时的放纵。</p>
+
+<p>可是，没有男人能忍受一顶绿油油的帽子被堂而皇之地戴在自己头上。</p>
+
+<p>Y理所当然地取得了孩子的抚养权和大部分财产。留给T一套小房子和20万。</p>
+
+<p>办理完全部手续后，Y看着T弱小的身体，因抽泣而耸动的肩膀，那一瞬，他几乎想再俯下身给她一个一如往昔的拥抱。而最终，他皱着眉，什么都没有做。</p>
+
+<p>T最后说 ：我不是饥渴，我只是寂寞。</p>
+
+<p>近八年的时间，Y除了整月出差，就是应酬到半夜。T在漫漫长夜里茫然，在无所事事里迷失。开始彻夜不眠地看韩剧、关在黑屋里看恐怖片，寻求一切可能的刺激。</p>
+
+<p>她雇了两个保姆，从家务到宠物，无一不是窗明几净井井有条。</p>
+
+<p>她办了50多张VIP卡，做完美容做指甲，泡完温泉练瑜伽。</p>
+
+<p>她交了几个爱购物爱八卦的女友，逛够了商场就相约打飞的去香港采购。
+</p>
+<p>只是这些，皆抚不平她心中的空虚寂寞。对乏味的日子和一成不变的生活，她也曾试图改变过。</p>
+
+<p>她烫了空气留海，问Y好不好看，Y头也不抬地说还行吧。</p>
+
+<p>她做了光子嫩肤，Y从头至尾也没有认真看一眼。</p>
+
+<p>她买了性感睡衣，等到半夜两点，Y酩酊大醉倒头就睡。</p>
+
+<p>她煲了广式靓汤，叫Y回家吃饭，Y说再说吧忙着呢。</p>
+
+<p>最后，她百无聊赖地将自己投身在茫茫大海般的网络里。</p>
+
+<p>她结识了那个年轻小伙，温情软语和厮守陪伴让她如坠爱河，年轻身体释放的激情让她迷幻，仿佛变回十八岁少女。欲望，是一块渗了大麻的鱼干，偷吃一口后，那种令人放纵又欲罢不能的腥味就会出现，直至成为毒瘾，将所有理智耗尽。</p>
+
+<p>婚姻是一场用信任缔结的契约。一旦破坏，就是被子弹击中的镜子，再也拼不出完整的世界。</p>
+
+<p>离婚后的Y成了最抢手的钻石王老五：40出头，身家千万，示爱者踏破门槛。</p>
+
+<p>离婚后的T成了自作自受的典型：独居在60平的旧房子里，日日神情恍惚，悔不当初。</p>
+
+<p>老杨说：真可怜，放着好好的富婆不当，非要自己作。</p>
+
+<p>我问他：如果你是Y，会原谅T吗？</p>
+
+<p>他思忖后摇头：难！</p>
+
+<p>我相信这是男人的真心话。</p>
+
+<p>女人比男人更怕寂寞。但在面对出轨问题的态度上，男人比女人更绝决。</p>
+
+<p>老杨问我：你们女人怎么看T这件事?</p>
+
+<p>我说：我能理解她的寂寞。但成人的世界，要讲规则。无论男女，犯了错，就要承担后果，付出代价。</p>
+
+<p>古希腊神话里有个关于海妖的故事。她可以幻化为人鱼，游走在礁石和孤岛之间。她有无与伦比的美貌和天籁般的歌喉，以曼妙歌声诱惑过往的航海者。若水手倾听失神，航船便触礁沉没，所有人沦为海妖的腹中餐。</p>
+
+<p>当英雄奥德修斯率船队经过墨西拿海峡的时候，事先得知了海妖的故事，他提前采取了防备措施。在船只驶入该海域之前，奥德修斯命人将自己拴在桅杆上，让水手们用蜡塞住耳朵，还告诫他们不要理会自己的任何命令和手势。</p>
+
+<p>很快，海上传来海妖迷人的歌声。她的歌喉如此摄人心魄，令人心驰神往。奥德修斯开始奋力挣扎，想冲破束缚，要水手们驶向唱歌的海妖，而水手们并不理会，按即定航道始终向前，歌声远去直至消失，他们才给奥德修斯松绑。</p>
+
+<p>最终，他们平安驶出这片危险的海域，而爱上了的奥德修斯的海妖绝望自尽。</p>
+
+<p> “你听寂寞在唱歌，温柔的，疯狂的。悲伤越来越深刻，怎样才能让它停呢。”我想起这首歌。
+</p>
+<p>婚姻里，撩动人心的歌令人委曲遍地泪流成河，这个海妖，名叫寂寞。
+</p>
+<p>当激情成了左手握右手，当浪漫被一地鸡毛取代，谁敢说没受到过寂寞的蛊惑，没听到过海妖唱歌？</p>
+
+<p>欲望是心魔。在某个时刻，它千呼万唤勾魂摄魄，让人百爪挠心难以拒绝。凡夫俗子不是奥德修斯，平乏婚姻难以承载七情六欲的多样性。 有人因好奇和无知而跃跃欲试，有人明知冒险仍偏向虎山行。而海妖终究是海妖，它伪装成爱情的模样，千娇百媚之后就是血盆大口，只等在暗夜里将人吞噬，累累白骨，万劫不复。</p>
+
+<p>辛晓琪有张专辑叫《爱上他不是我的错》：“爱上他不只是我的错，是你给我的寂寞惹的祸。这样伤感的结果，只是开始谁都没想过。” </p>
+
+<p>外遇是种不义之爱。</p>
+
+<p>如同一笔不义之财，让每个寂寞贪婪的人眼前一亮双目放光。而一旦挪用，就要付出千百倍的代价。</p>
+
+<p>因寂寞而犯错，最终只会让人更寂寞。</p>
+
+<p>万丈红尘里，风尘障眼，浮云遮面。</p>
+
+<p>多少人以为自己重遇了爱情，其实只不过是，与寂寞有染，与爱情无关。</p>
+					  					  ',`update_time`='1458124644' WHERE `id` = 34 [ RunTime:0.1712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-03-16T18:37:25+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-03-16T18:37:27+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-03-16T18:37:28+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-03-16T18:37:29+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-03-16T18:38:09+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-03-16T18:38:10+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-03-16T18:38:10+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002875s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\NewBlog\Class\Admin\Model\ArticleDetailModel.class.php 第 16 行.
+SQL: SELECT ad.id,ad.title,ad.content,ad.create_time,ac.name,ad.update_time FROM blog_article_detail ad INNER JOIN blog_article_category AS ac ON ad.category_id = ac.id  WHERE ad.status = 1 ORDER BY update_time asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-03-16T18:38:42+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\c271be4512c91459c67cb6b11f9918c9.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-03-16T18:38:43+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=pageChange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_article_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-03-16T18:38:45+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\2ad3a247a0d981dd2fb66c85e0f35ef2.php 第 39 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\2ad3a247a0d981dd2fb66c85e0f35ef2.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-03-16T18:38:48+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=pageChange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `blog_article_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-03-16T18:38:49+08:00 ] ::1 /NewBlog/index.php?m=Admin&c=Index&a=addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000596s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001220s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\NewBlog\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\NewBlog\Class\Runtime\Cache\Admin\c271be4512c91459c67cb6b11f9918c9.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+

@@ -1,0 +1,130 @@
+[ 2015-12-28T19:07:54+08:00 ] ::1 /NewBlog/index.php?m=&&m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0029s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-12-28T19:08:31+08:00 ] ::1 /NewBlog/index.php?m=Home&c=Index&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0035s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 4,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-12-28T19:20:12+08:00 ] ::1 /NewBlog/index.php?m=Home&c=index&a=category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0329s ]
+NOTIC: [8] Undefined variable: p D:\wamp\www\NewBlog\Class\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.964808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.965016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2015-12-28T20:28:09+08:00 ] ::1 /NewBlog/index.php?m=&&m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0052s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-12-28T20:49:25+08:00 ] ::1 /NewBlog/index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `blog_article_detail` [ RunTime:0.0123s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc LIMIT 0,6   [ RunTime:0.0027s ]
+SQL: SELECT * FROM blog_article_detail ad WHERE ad.status = 1 AND `category_id` > 0 ORDER BY update_time desc  [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `blog_article_category` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `blog_article_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
